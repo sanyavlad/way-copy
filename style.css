@@ -6,7 +6,9 @@
 .icon {
   color: #033fff;
 }
-
+section {
+  margin: 60px 0;
+}
 header .navbar .nav-link:hover {
   border-color: #000;
 }
@@ -22,3 +24,30 @@ header .navbar .nav-link {
 /* header .navbar .nav-item {
   border: 1px solid blue;
 } */
+
+.promo li {
+  list-style: none;
+  position: relative;
+  line-height: 2.5;
+}
+.promo li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -20px;
+  top: 17px;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  background-color: #60738e;
+}
+
+.promo .btns a:first-child {
+  background-color: #033fff;
+}
+
+@media screen and (max-width: 992px) {
+  .promo li:before {
+    display: none;
+  }
+}
