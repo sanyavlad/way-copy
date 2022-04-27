@@ -1,0 +1,24 @@
+.btn-blue:hover {
+  background-color: #033fff;
+  box-shadow: 0 0 10px rgba(3, 62, 255, 0.578);
+}
+
+.icon {
+  color: #033fff;
+}
+
+header .navbar .nav-link:hover {
+  border-color: #000;
+}
+
+header .navbar .nav-link {
+  /* border: 1px solid red; */
+  padding: 5px 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 20px;
+}
+/* header .navbar .nav-item {
+  border: 1px solid blue;
+} */
