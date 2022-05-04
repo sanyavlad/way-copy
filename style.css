@@ -45,9 +45,47 @@ header .navbar .nav-link {
 .promo .btns a:first-child {
   background-color: #033fff;
 }
-
+.promo .carousel-inner {
+  height: 653px;
+}
+.courses a {
+  overflow: hidden;
+  border-radius: 30px;
+}
+.card-img {
+  transition: 0.5s;
+}
+.courses .card-img {
+  transform: scale(1.6);
+}
+.courses a:hover > .card-img {
+  transform: scale(1.9);
+}
+.card-bottom {
+  color: #97c5cf;
+}
+.courses {
+  background-color: #160d27;
+}
+.courses .wrap {
+  width: 360px;
+}
 @media screen and (max-width: 992px) {
   .promo li:before {
     display: none;
+  }
+  .promo .carousel-inner {
+    width: 500px;
+    margin: 0 auto;
+    height: 520px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .courses .wrap {
+    width: 100%;
+  }
+  .courses .card {
+    height: 330px;
   }
 }
