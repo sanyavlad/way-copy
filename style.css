@@ -70,22 +70,42 @@ header .navbar .nav-link {
 .courses .wrap {
   width: 360px;
 }
+.add-info {
+  border-radius: 25px;
+  box-shadow: 0 10px 5px #c7c8ca;
+  transform: translateY(-50px);
+}
+
 @media screen and (max-width: 992px) {
   .promo li:before {
     display: none;
   }
   .promo .carousel-inner {
-    width: 500px;
+    width: 520px;
     margin: 0 auto;
-    height: 520px;
+    height: auto;
+    /* height: 576px; */
   }
 }
 
+.search img {
+  background-color: #e5ebff;
+  padding: 15px;
+}
 @media screen and (max-width: 768px) {
   .courses .wrap {
     width: 100%;
   }
   .courses .card {
     height: 330px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .promo .carousel-inner {
+    width: 320px;
+    margin: 0 auto;
+    height: auto;
+    /* height: 576px; */
   }
 }
