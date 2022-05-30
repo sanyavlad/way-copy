@@ -10,6 +10,15 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
     />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -358,7 +367,7 @@
               обязателен.
             </p>
             <a
-              class="btn btn-primary rounded-pill p-3 ms-3 px-5 btn-blue"
+              class="btn rounded-pill p-3 ms-3 px-5 btn-blue btn-blue-static"
               href=""
               >Попасть на коучинг</a
             >
@@ -366,6 +375,530 @@
         </div>
       </div>
     </section>
+
+    <section class="learning py-5">
+      <div class="container">
+        <h2 class="fw-bold text-center mb-5">Ваша программа обучения</h2>
+        <div class="accordion accordion-flush my-4" id="accordionFlushExample">
+          <div class="accordion-item p-3">
+            <span class="small me-3 px-3">Блок #1</span>
+            <span class="text-warning small">3 занятия</span>
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed fw-bold border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Введение
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li>Знакомство с коучингом и профессией</li>
+                  <li>Знакомство с HTML</li>
+                  <li>Знакомство с CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion accordion-flush my-4" id="accordionFlushExample2">
+          <div class="accordion-item p-3">
+            <span class="small me-3 px-3">Блок #2</span>
+            <span class="text-warning small">4 занятия</span>
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed fw-bold border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Погружение
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample2"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li>Знакомство с коучингом и профессией</li>
+                  <li>Знакомство с HTML</li>
+                  <li>Знакомство с CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion accordion-flush my-4" id="accordionFlushExample3">
+          <div class="accordion-item p-3">
+            <span class="small me-3 px-3">Блок #3</span>
+            <span class="text-warning small">2 занятия</span>
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed fw-bold border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Все покажет практика
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample3"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li>Знакомство с коучингом и профессией</li>
+                  <li>Знакомство с HTML</li>
+                  <li>Знакомство с CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback">
+      <div class="container">
+        <div class="center slider g-4">
+          <div class="card text-center" style="min-width: 320px">
+            <div
+              class="wrap-img"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <img
+                src="img/demin.jpg"
+                class="card-img-top img-in-block"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Степан Андреевич</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card text-center" style="min-width: 320px">
+            <div
+              class="wrap-img"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal1"
+            >
+              <img
+                src="img/demin.jpg"
+                class="card-img-top img-in-block"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Степан Андреевич</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card text-center" style="min-width: 320px">
+            <div
+              class="wrap-img"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal2"
+            >
+              <img
+                src="img/demin.jpg"
+                class="card-img-top img-in-block"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Степан Андреевич</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card text-center" style="min-width: 320px">
+            <div
+              class="wrap-img"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal3"
+            >
+              <img
+                src="img/demin.jpg"
+                class="card-img-top img-in-block"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Степан Андреевич</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card text-center" style="min-width: 320px">
+            <div
+              class="wrap-img"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal4"
+            >
+              <img
+                src="img/demin.jpg"
+                class="card-img-top img-in-block"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Степан Андреевич</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card text-center" style="min-width: 320px">
+            <div
+              class="wrap-img"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal5"
+            >
+              <img
+                src="img/demin.jpg"
+                class="card-img-top img-in-block"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Степан Андреевич</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/ECm67Wbp-xs"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <h3 class="my-3">Ткаченко Вероника</h3>
+              <a href="" class="card-link__link">
+                <i class="fa-brands fa-vk"></i>
+                vkontakte
+              </a>
+              <p class="lh-lg">
+                Я закончила обучение на коучинге "Веб-разработчик: код
+                фрилансера" Впечатления положительные, классная подача
+                материала, структурированные уроки. Отдельное спасибо Андрею
+                Гаврилову за космическую мотивацию и поддержку. Благодарна
+                наставнику Евгению, очень помогали его видеоразборы домашних
+                заданий. Большую помощь оказывал и телеграмм-чат. Куратор Никита
+                быстро справлялся с любыми техническими неполадками. Было
+                нелегко, но сдав дипломный проект поняла, какой путь проделала
+                за эти три месяца. Это стоило бессонных ночей, переживаний. У
+                меня все получилось и я понимаю, что нахожусь на правильном
+                пути. Спасибо WAYUP за работу, вы - крутые!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal1"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/ECm67Wbp-xs"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <h3 class="my-3">Ткаченко Вероника</h3>
+              <a href="" class="card-link__link">
+                <i class="fa-brands fa-vk"></i>
+                vkontakte
+              </a>
+              <p class="lh-lg">
+                Я закончила обучение на коучинге "Веб-разработчик: код
+                фрилансера" Впечатления положительные, классная подача
+                материала, структурированные уроки. Отдельное спасибо Андрею
+                Гаврилову за космическую мотивацию и поддержку. Благодарна
+                наставнику Евгению, очень помогали его видеоразборы домашних
+                заданий. Большую помощь оказывал и телеграмм-чат. Куратор Никита
+                быстро справлялся с любыми техническими неполадками. Было
+                нелегко, но сдав дипломный проект поняла, какой путь проделала
+                за эти три месяца. Это стоило бессонных ночей, переживаний. У
+                меня все получилось и я понимаю, что нахожусь на правильном
+                пути. Спасибо WAYUP за работу, вы - крутые!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal2"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/ECm67Wbp-xs"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <h3 class="my-3">Ткаченко Вероника</h3>
+              <a href="" class="card-link__link">
+                <i class="fa-brands fa-vk"></i>
+                vkontakte
+              </a>
+              <p class="lh-lg">
+                Я закончила обучение на коучинге "Веб-разработчик: код
+                фрилансера" Впечатления положительные, классная подача
+                материала, структурированные уроки. Отдельное спасибо Андрею
+                Гаврилову за космическую мотивацию и поддержку. Благодарна
+                наставнику Евгению, очень помогали его видеоразборы домашних
+                заданий. Большую помощь оказывал и телеграмм-чат. Куратор Никита
+                быстро справлялся с любыми техническими неполадками. Было
+                нелегко, но сдав дипломный проект поняла, какой путь проделала
+                за эти три месяца. Это стоило бессонных ночей, переживаний. У
+                меня все получилось и я понимаю, что нахожусь на правильном
+                пути. Спасибо WAYUP за работу, вы - крутые!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal3"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/ECm67Wbp-xs"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <h3 class="my-3">Ткаченко Вероника</h3>
+              <a href="" class="card-link__link">
+                <i class="fa-brands fa-vk"></i>
+                vkontakte
+              </a>
+              <p class="lh-lg">
+                Я закончила обучение на коучинге "Веб-разработчик: код
+                фрилансера" Впечатления положительные, классная подача
+                материала, структурированные уроки. Отдельное спасибо Андрею
+                Гаврилову за космическую мотивацию и поддержку. Благодарна
+                наставнику Евгению, очень помогали его видеоразборы домашних
+                заданий. Большую помощь оказывал и телеграмм-чат. Куратор Никита
+                быстро справлялся с любыми техническими неполадками. Было
+                нелегко, но сдав дипломный проект поняла, какой путь проделала
+                за эти три месяца. Это стоило бессонных ночей, переживаний. У
+                меня все получилось и я понимаю, что нахожусь на правильном
+                пути. Спасибо WAYUP за работу, вы - крутые!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal4"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/ECm67Wbp-xs"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <h3 class="my-3">Ткаченко Вероника</h3>
+              <a href="" class="card-link__link">
+                <i class="fa-brands fa-vk"></i>
+                vkontakte
+              </a>
+              <p class="lh-lg">
+                Я закончила обучение на коучинге "Веб-разработчик: код
+                фрилансера" Впечатления положительные, классная подача
+                материала, структурированные уроки. Отдельное спасибо Андрею
+                Гаврилову за космическую мотивацию и поддержку. Благодарна
+                наставнику Евгению, очень помогали его видеоразборы домашних
+                заданий. Большую помощь оказывал и телеграмм-чат. Куратор Никита
+                быстро справлялся с любыми техническими неполадками. Было
+                нелегко, но сдав дипломный проект поняла, какой путь проделала
+                за эти три месяца. Это стоило бессонных ночей, переживаний. У
+                меня все получилось и я понимаю, что нахожусь на правильном
+                пути. Спасибо WAYUP за работу, вы - крутые!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal5"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/ECm67Wbp-xs"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <h3 class="my-3">Ткаченко Вероника</h3>
+              <a href="" class="card-link__link">
+                <i class="fa-brands fa-vk"></i>
+                vkontakte
+              </a>
+              <p class="lh-lg">
+                Я закончила обучение на коучинге "Веб-разработчик: код
+                фрилансера" Впечатления положительные, классная подача
+                материала, структурированные уроки. Отдельное спасибо Андрею
+                Гаврилову за космическую мотивацию и поддержку. Благодарна
+                наставнику Евгению, очень помогали его видеоразборы домашних
+                заданий. Большую помощь оказывал и телеграмм-чат. Куратор Никита
+                быстро справлялся с любыми техническими неполадками. Было
+                нелегко, но сдав дипломный проект поняла, какой путь проделала
+                за эти три месяца. Это стоило бессонных ночей, переживаний. У
+                меня все получилось и я понимаю, что нахожусь на правильном
+                пути. Спасибо WAYUP за работу, вы - крутые!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
