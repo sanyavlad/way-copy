@@ -1,3 +1,8 @@
+$(".study .tabs button").click(function () {
+  $(".study .tabs button i").removeClass("tab-active");
+  $(this).find("i").addClass("tab-active");
+});
+
 $(document).ready(function () {
   $(".center").slick({
     infinite: true,
