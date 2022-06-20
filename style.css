@@ -16,7 +16,8 @@ body {
 .icon {
   color: var(--btn-blue);
 }
-section {
+section,
+footer {
   padding: 60px 0;
 }
 header .navbar .nav-link:hover {
@@ -141,7 +142,9 @@ header .navbar .nav-link {
   border-radius: 50%;
   padding: 20px;
 }
-
+.feedback{
+  overflow: hidden;
+}
 .feedback .slick-prev::before,
 .feedback .slick-next::before {
   color: #000;
@@ -228,6 +231,7 @@ header .navbar .nav-link {
   padding: 90px 0;
   margin: 0;
   position: relative;
+  overflow: hidden;
 }
 
 .why .item {
@@ -349,6 +353,59 @@ header .navbar .nav-link {
 .study .accordion-body {
   margin-left: 0;
 }
+
+footer {
+  background-color: #e9f1f2;
+}
+
+footer .icons {
+  color: #fff;
+  /* border-radius: 50%; */
+  display: inline-block;
+  /* width: 20px;
+  height: 20px;
+  border-radius: 50%; */
+}
+footer .icons i {
+  overflow: hidden;
+  color: #60738e;
+  /* border-radius: 50%; */
+  display: inline-block;
+  font-size: 20px;
+  /* width: 30px;
+  height: 30px; */
+  transition: 0.5s;
+}
+
+footer .icons:hover > i {
+  transform: rotate(360deg);
+}
+.input-email input {
+  border: none;
+  border-bottom: 1px solid #60738e;
+  background-color: transparent;
+}
+.input-email input:focus {
+  box-shadow: none;
+  background-color: transparent;
+  border-bottom: 1px solid #60738e;
+}
+.input-email button {
+  border: none;
+}
+.input-email button:hover {
+  background: none;
+}
+.input-email button:focus {
+  box-shadow: none;
+}
+.input-email button i {
+  transition: 0.5s;
+}
+.input-email button:hover i {
+  transform: scaleX(-1);
+}
+
 @keyframes jupiter {
   50% {
     right: 30px;
@@ -436,9 +493,83 @@ header .navbar .nav-link {
 
 @media screen and (max-width: 576px) {
   .promo .carousel-inner {
-    width: 320px;
+    width: 280px;
     margin: 0 auto;
     height: auto;
     /* height: 576px; */
+  }
+  .promo h1{
+    font-size: 26px;
+  }
+  .promo ul li{
+    display: none;
+  }
+  .promo .btns a{
+    margin: 7px 0;
+  }
+  .courses .card-text{
+    font-size: 18px !important;
+  }
+  .information{
+    padding-bottom: 15px;
+  }
+  .information .add-info{
+    margin: 0 10px !important;
+    padding: 0 10px !important;
+    width: 90% !important;
+    font-size: 12px;
+  }
+  .information .add-info h4{
+    font-size: 18px;
+  }
+  .information .add-info p{
+    font-size: 14px;
+  }
+  .information .add-info .btn{
+    padding: 10px !important;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .slick-slide{
+    /* margin: 0 25px; */
+  }
+  .slick-list{
+    margin: 0 -50px;
+  }
+  .feedback .slick-next, .feedback .slick-prev, .feedback .slick-next::before, .feedback .slick-prev::before{
+    display: none;
+  }
+  .feedback .card-text{
+    font-size: 12px;
+  }
+  .feedback .wrap-img:after,
+  .feedback .wrap-img:before{
+    display: none;
+  }
+  .feedback .modal-body p{
+    font-size: 12px;
+  }
+  .why .item{
+    width: 80%;
+  }
+  .why .item label{
+    font-size: 16px;
+  }
+  .why .item p{
+    font-size: 12px;
+  }
+  .study button{
+    margin: 0 20px;
+    width: 90% !important;
+    font-size: 14px;
+  }
+  .study .accordion-body{
+    font-size: smaller !important;
+  }
+  .study .accordion-body a{
+    margin-left:0 ;
+  }
+  footer .menu{
+    display: none;
   }
 }
